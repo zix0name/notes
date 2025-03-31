@@ -249,3 +249,11 @@ style.innerHTML += `
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 `;
+// add favicon
+const favicon = document.createElement("link");
+favicon.rel = "icon";
+favicon.href =
+  "https://emojiisland.com/cdn/shop/products/Emoji_Icon_-_Sunglasses_cool_emoji_large.png?v=1571606093"; // replace with your favicon url
+
+favicon.type = "image/png";
+head.appendChild(favicon);
